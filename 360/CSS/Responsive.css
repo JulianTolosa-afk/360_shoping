@@ -1,0 +1,79 @@
+/* Responsive.css */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+        margin: 0 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 40px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button {
+        margin: 5px 0;
+    }
+
+    .pestana_2, .pestana_3 {
+        flex-direction: column;
+    }
+
+    .comprar {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    .pestana_2, .pestana_3 {
+        flex-direction: column;
+    }
+
+    #inicio h1 {
+        font-size: 40px;
+    }
+
+    .comprar {
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 8px 15px;
+    }
+
+    .logo {
+        width: 45px;
+    }
+}
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio 360</title>
+    <link rel="stylesheet" href="CSS/Styles.css">
+    <link rel="stylesheet" href="CSS/Responsive.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="#inicio">
+                <img src="assets/imagenes/360_rojo.png" alt="Logo de Visual Vibes" class="logo"> <!-- Logo de Visual Vibes -->
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#explorar">Explorar</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#moda">Moda</a></li>
+                    <li><a href="#acerca">Acerca de</a></li>
+                    <li><a href="#registro">Registrarse</a></li>
+                </ul>
+            </nav>
+            <input type="search" placeholder="Buscar...">
+            <button>Buscar</button>
+            <button>Comprar</button>
+            <button class="menu-toggle">☰</button> <!-- Menú desplegable -->
+        </div>
+    </header>
+
+    <!-- PESTAÑA 1 -->
+    <section id="inicio" class="seccion">
+        <h1>Bienvenido a Radio 360</h1>
+        <p class="parrafo">Explora nuestras ofertas de servicios y productos en descuentos.</p>
+    </section>
+
+    <!-- PESTAÑA 2 -->
+    <section id="explorar" class="seccion">
+        <h2>SERVICIOS CON 50% DE DESCUENTO</h2>
+        <div class="pestana">
+            <div>
+                <img src="assets/imagenes/logotipo.jpg" alt="Logotipo de ejemplo">
+                <button>Logotipo</button>
+            </div>
+            <div>
+                <img src="assets/imagenes/ilustración.png" alt="Ilustración">
+                <button>Ilustración</button>
+            </div>
+            <div>
+                <img src="assets/imagenes/fotografia.png" alt="Fotografías">
+                <button>Fotografías</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- PESTAÑA 3 -->
+    <section id="servicios" class="seccion">
+        <h2>SERVICIOS MULTIMEDIA</h2>
+        <p>Ofrecemos servicios multimedia dirigidos a los negocios como: animación de logos, edición de video, manual de imagen y más.</p>
+        <div class="pestana">
+            <div>
+                <img src="assets/imagenes/animación.png" alt="Animación">
+                <button>Animación</button>
+            </div>
+            <div>
+                <img src="assets/imagenes/política.png" alt="Político">
+                <button>Político</button>
+            </div>
+            <div>
+                <img src="assets/imagenes/edción de video.png" alt="Edición de video">
+                <button>Edición de video</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- PESTAÑA 4 -->
+    <section id="moda" class="seccion">
+        <h2>MODA</h2>
+        <p>Transformamos tus ideas en moda. Desde diseños exclusivos hasta fotos personalizadas.</p>
+        <div class="pestana">
+            <img src="assets/imagenes/hoodie.png" alt="Hoodie">
+            <img src="assets/imagenes/playera.png" alt="Playera">
+        </div>
+        <button class="comprar">Comprar ahora</button>
+    </section>
+
+    <!-- PESTAÑA 5 -->
+    <section id="acerca de" class="seccion">
+        <h2>Acerca de</h2>
+        <p>Texto, texto, texto</p>
+        <video controls>
+            <source src="assets/videos/video_informativo.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+    </section>
+
+    <!-- PESTAÑA 6 -->
+    <section id="registro" class="seccion">
+        <h2>Regístrate</h2>
+        <form>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <img src="assets/imagenes/360_rojo.png" alt="Logotipo de Radio 360">
+        <p>&copy; 2024 Radio 360 - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
